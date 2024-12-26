@@ -74,7 +74,7 @@ body {
   .footer-card {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     border: 1px solid #ddd;
     padding: 10px 10px;
     border-radius: 8px;
@@ -84,7 +84,7 @@ body {
   }
   
   .footer-circle {
-    width: 55px;
+    width: 62px;
     height: 55px;
     border-radius: 50%;
     background-color: #d3d3d3;
