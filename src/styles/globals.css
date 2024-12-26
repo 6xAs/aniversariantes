@@ -1,0 +1,98 @@
+/* Container principal */
+body {
+    background-color: #f6f6f6;
+    margin: 0;
+}
+.container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f6f6f6;
+    
+  }
+  
+  /* Título do mês */
+  .month-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilo do círculo principal */
+  .main-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    margin-bottom: 20px;
+  }
+  
+  .name-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .message {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  /* Footer fixado */
+  .footer {
+    position: fixed;
+    text-align: left;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+ 
+  }
+  
+  .footer h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  /* Estilo dos cards no rodapé */
+  .footer-cards {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
+  .footer-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    justify-content: flex-start; /* Adicionado para alinhar os itens à esquerda */
+  }
+  
+  .footer-circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    margin-right: auto; /* Adicionado para alinhar o item à esquerda */
+  }
+  
+  .footer-info p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
